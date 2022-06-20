@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+}
+.txt{
+    color: rgb(255, 255, 255);
+   
+}
+
+.game{
+        border: 1px solid ;  
+        text-align: center;
+        margin: 0 auto;
+        width: auto; 
+        padding: 30px;  
+       
+}
+
+.name{
+    display: flex;
+    justify-content: space-around;
+    padding: 68px;
+    color: white;
+    margin-left: 10px;
+    
+
+}
+
+
+.images{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+    border: 1px solid ;
+    padding: 10px;
+}
+
+.images img{
+    width: auto;
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid rgb(40, 39, 39);
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.images img:hover{
+    box-shadow: 0px 10px 50px rgb(255, 255, 255);
+}
